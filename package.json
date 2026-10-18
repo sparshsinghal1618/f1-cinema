@@ -1,0 +1,42 @@
+{
+  "name": "f1-cinema",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "F1 — a cinematic, motorsport-inspired 3D web experience.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "assets": "node scripts/acquire-assets.mjs",
+    "assets:missing": "node scripts/fetch-missing.mjs",
+    "assets:optimize": "node scripts/optimize-images.mjs",
+    "assets:index": "node scripts/gen-image-module.mjs",
+    "assets:manifest": "node scripts/make-asset-manifest.mjs",
+    "assets:licenses": "node scripts/make-licenses.mjs",
+    "teams": "node scripts/fetch-teams.mjs && node scripts/make-teams-module.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.0",
+    "@react-three/fiber": "^9.3.0",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.545.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.182.0",
+    "@vitejs/plugin-react": "^5.1.0",
+    "sharp": "^0.34.5",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true,
+    "esbuild@0.28.2": true
+  }
+}

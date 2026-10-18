@@ -1,0 +1,858 @@
+{
+  "project": "f1-cinema",
+  "version": "1.0.0",
+  "description": "F1 — a cinematic, motorsport-inspired 3D web experience.",
+  "generatedAt": "2026-10-17T07:19:45.272Z",
+  "summary": {
+    "images": 38,
+    "imageFiles": 190,
+    "environments": 5,
+    "fonts": 22,
+    "icons": 1,
+    "models": 0,
+    "audio": 0,
+    "totalFiles": 218,
+    "totalBytes": 78376499
+  },
+  "notes": {
+    "images": "Licensed motorsport photography from Wikimedia Commons, converted to WebP with 640/1280/1920/2560 responsive variants. Every entry keeps its author, licence and source URL. The full-resolution .jpg originals are intentionally not shipped; re-run `npm run assets` to restore them.",
+    "environments": "HDRI and texture environments from Poly Haven, all CC0.",
+    "fonts": "Bundled locally as woff2: barlow-condensed, inter, jetbrains-mono (SIL Open Font License 1.1).",
+    "icons": "Original project artwork.",
+    "models": "No third-party 3D model ships with this project. Two CC-BY candidates were downloaded, evaluated and rejected; the car is procedural. See public/assets/models/README.md.",
+    "audio": "No audio files ship with this project; all sound is synthesised with the Web Audio API."
+  },
+  "images": [
+    {
+      "key": "hero-0",
+      "category": "hero",
+      "path": "assets/images/hero/00-red-bull-racing-rb16-2020-52575602549.webp",
+      "width": 3840,
+      "height": 2444,
+      "variants": [
+        "assets/images/hero/00-red-bull-racing-rb16-2020-52575602549-640.webp",
+        "assets/images/hero/00-red-bull-racing-rb16-2020-52575602549-1280.webp",
+        "assets/images/hero/00-red-bull-racing-rb16-2020-52575602549-1920.webp",
+        "assets/images/hero/00-red-bull-racing-rb16-2020-52575602549-2560.webp"
+      ],
+      "title": "Red Bull Racing RB16 (2020) (52575602549).jpg",
+      "author": "Charles from Port Chester, New York",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing_RB16_(2020)_(52575602549).jpg"
+    },
+    {
+      "key": "hero-1",
+      "category": "hero",
+      "path": "assets/images/hero/01-2024-mclaren-mcl38.webp",
+      "width": 3840,
+      "height": 2715,
+      "variants": [
+        "assets/images/hero/01-2024-mclaren-mcl38-640.webp",
+        "assets/images/hero/01-2024-mclaren-mcl38-1280.webp",
+        "assets/images/hero/01-2024-mclaren-mcl38-1920.webp",
+        "assets/images/hero/01-2024-mclaren-mcl38-2560.webp"
+      ],
+      "title": "2024 McLaren MCL38.jpg",
+      "author": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2024_McLaren_MCL38.jpg"
+    },
+    {
+      "key": "hero-2",
+      "category": "hero",
+      "path": "assets/images/hero/02-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/hero/02-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-640.webp",
+        "assets/images/hero/02-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-1280.webp",
+        "assets/images/hero/02-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-1920.webp",
+        "assets/images/hero/02-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-2560.webp"
+      ],
+      "title": "Scott Speed Driving an RB7 for Red Bull Racing at the 2025 Adelaide Grand Final - 01.jpg",
+      "author": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scott_Speed_Driving_an_RB7_for_Red_Bull_Racing_at_the_2025_Adelaide_Grand_Final_-_01.jpg"
+    },
+    {
+      "key": "hero-4",
+      "category": "hero",
+      "path": "assets/images/hero/04-mclaren-formula-one-cars-25778343418.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/hero/04-mclaren-formula-one-cars-25778343418-640.webp",
+        "assets/images/hero/04-mclaren-formula-one-cars-25778343418-1280.webp",
+        "assets/images/hero/04-mclaren-formula-one-cars-25778343418-1920.webp",
+        "assets/images/hero/04-mclaren-formula-one-cars-25778343418-2560.webp"
+      ],
+      "title": "McLaren Formula One Cars (25778343418).jpg",
+      "author": "Darren Garlick",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:McLaren_Formula_One_Cars_(25778343418).jpg"
+    },
+    {
+      "key": "cars-2",
+      "category": "cars",
+      "path": "assets/images/cars/02-2020-f1-pre-season-testing-catalonia-49629860097.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/cars/02-2020-f1-pre-season-testing-catalonia-49629860097-640.webp",
+        "assets/images/cars/02-2020-f1-pre-season-testing-catalonia-49629860097-1280.webp",
+        "assets/images/cars/02-2020-f1-pre-season-testing-catalonia-49629860097-1920.webp",
+        "assets/images/cars/02-2020-f1-pre-season-testing-catalonia-49629860097-2560.webp"
+      ],
+      "title": "2020 F1 Pre-Season Testing Catalonia (49629860097).jpg",
+      "author": "Jen Ross",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2020_F1_Pre-Season_Testing_Catalonia_(49629860097).jpg"
+    },
+    {
+      "key": "cars-3",
+      "category": "cars",
+      "path": "assets/images/cars/03-2020-alphatauri-at01-cockpit-view-honda-racing-gallery.webp",
+      "width": 3840,
+      "height": 2880,
+      "variants": [
+        "assets/images/cars/03-2020-alphatauri-at01-cockpit-view-honda-racing-gallery-640.webp",
+        "assets/images/cars/03-2020-alphatauri-at01-cockpit-view-honda-racing-gallery-1280.webp",
+        "assets/images/cars/03-2020-alphatauri-at01-cockpit-view-honda-racing-gallery-1920.webp",
+        "assets/images/cars/03-2020-alphatauri-at01-cockpit-view-honda-racing-gallery-2560.webp"
+      ],
+      "title": "2020 AlphaTauri AT01 Cockpit View Honda RACING Gallery.jpg",
+      "author": "BWard 1997",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2020_AlphaTauri_AT01_Cockpit_View_Honda_RACING_Gallery.jpg"
+    },
+    {
+      "key": "cars-4",
+      "category": "cars",
+      "path": "assets/images/cars/04-red-bull-formula-one-showcar-at-the-2025-adelaide-grand-final-08.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/cars/04-red-bull-formula-one-showcar-at-the-2025-adelaide-grand-final-08-640.webp",
+        "assets/images/cars/04-red-bull-formula-one-showcar-at-the-2025-adelaide-grand-final-08-1280.webp",
+        "assets/images/cars/04-red-bull-formula-one-showcar-at-the-2025-adelaide-grand-final-08-1920.webp",
+        "assets/images/cars/04-red-bull-formula-one-showcar-at-the-2025-adelaide-grand-final-08-2560.webp"
+      ],
+      "title": "Red Bull Formula One showcar at the 2025 Adelaide Grand Final - 08.jpg",
+      "author": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Bull_Formula_One_showcar_at_the_2025_Adelaide_Grand_Final_-_08.jpg"
+    },
+    {
+      "key": "circuits-0",
+      "category": "circuits",
+      "path": "assets/images/circuits/00-1-singapore-f1-night-race-2012-city-skyline.webp",
+      "width": 2048,
+      "height": 1367,
+      "variants": [
+        "assets/images/circuits/00-1-singapore-f1-night-race-2012-city-skyline-640.webp",
+        "assets/images/circuits/00-1-singapore-f1-night-race-2012-city-skyline-1280.webp",
+        "assets/images/circuits/00-1-singapore-f1-night-race-2012-city-skyline-1920.webp",
+        "assets/images/circuits/00-1-singapore-f1-night-race-2012-city-skyline.webp"
+      ],
+      "title": "1 singapore f1 night race 2012 city skyline.jpg",
+      "author": "chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1_singapore_f1_night_race_2012_city_skyline.jpg"
+    },
+    {
+      "key": "circuits-3",
+      "category": "circuits",
+      "path": "assets/images/circuits/03-singapore-sg-view-from-marina-bay-sands-singapore-flyer-2019-4720.webp",
+      "width": 3840,
+      "height": 2880,
+      "variants": [
+        "assets/images/circuits/03-singapore-sg-view-from-marina-bay-sands-singapore-flyer-2019-4720-640.webp",
+        "assets/images/circuits/03-singapore-sg-view-from-marina-bay-sands-singapore-flyer-2019-4720-1280.webp",
+        "assets/images/circuits/03-singapore-sg-view-from-marina-bay-sands-singapore-flyer-2019-4720-1920.webp",
+        "assets/images/circuits/03-singapore-sg-view-from-marina-bay-sands-singapore-flyer-2019-4720-2560.webp"
+      ],
+      "title": "Singapore (SG), View from Marina Bay Sands, Singapore Flyer -- 2019 -- 4720.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_View_from_Marina_Bay_Sands,_Singapore_Flyer_--_2019_--_4720.jpg"
+    },
+    {
+      "key": "circuits-4",
+      "category": "circuits",
+      "path": "assets/images/circuits/04-monaco-img-0998.webp",
+      "width": 3840,
+      "height": 2559,
+      "variants": [
+        "assets/images/circuits/04-monaco-img-0998-640.webp",
+        "assets/images/circuits/04-monaco-img-0998-1280.webp",
+        "assets/images/circuits/04-monaco-img-0998-1920.webp",
+        "assets/images/circuits/04-monaco-img-0998-2560.webp"
+      ],
+      "title": "Monaco IMG 0998.jpg",
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Monaco_IMG_0998.jpg"
+    },
+    {
+      "key": "circuits-5",
+      "category": "circuits",
+      "path": "assets/images/circuits/05-r10-motogp-silverstone-06-08-23-btc-039.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/circuits/05-r10-motogp-silverstone-06-08-23-btc-039-640.webp",
+        "assets/images/circuits/05-r10-motogp-silverstone-06-08-23-btc-039-1280.webp",
+        "assets/images/circuits/05-r10-motogp-silverstone-06-08-23-btc-039-1920.webp",
+        "assets/images/circuits/05-r10-motogp-silverstone-06-08-23-btc-039-2560.webp"
+      ],
+      "title": "R10-MotoGP-Silverstone-06-08-23-BTC-039.jpg",
+      "author": "Dutchtuliptree",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:R10-MotoGP-Silverstone-06-08-23-BTC-039.jpg"
+    },
+    {
+      "key": "circuits-8",
+      "category": "circuits",
+      "path": "assets/images/circuits/08-autodromo-nazionale-di-monza-italy-ank-kumar-04.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/circuits/08-autodromo-nazionale-di-monza-italy-ank-kumar-04-640.webp",
+        "assets/images/circuits/08-autodromo-nazionale-di-monza-italy-ank-kumar-04-1280.webp",
+        "assets/images/circuits/08-autodromo-nazionale-di-monza-italy-ank-kumar-04-1920.webp",
+        "assets/images/circuits/08-autodromo-nazionale-di-monza-italy-ank-kumar-04-2560.webp"
+      ],
+      "title": "Autodromo Nazionale di Monza, Italy (Ank Kumar) 04.jpg",
+      "author": "Ank Kumar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Autodromo_Nazionale_di_Monza,_Italy_(Ank_Kumar)_04.jpg"
+    },
+    {
+      "key": "circuits-9",
+      "category": "circuits",
+      "path": "assets/images/circuits/09-singapore-sg-marina-bay-street-circuit-2019-4479.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/circuits/09-singapore-sg-marina-bay-street-circuit-2019-4479-640.webp",
+        "assets/images/circuits/09-singapore-sg-marina-bay-street-circuit-2019-4479-1280.webp",
+        "assets/images/circuits/09-singapore-sg-marina-bay-street-circuit-2019-4479-1920.webp",
+        "assets/images/circuits/09-singapore-sg-marina-bay-street-circuit-2019-4479-2560.webp"
+      ],
+      "title": "Singapore (SG), Marina Bay Street Circuit -- 2019 -- 4479.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Singapore_(SG),_Marina_Bay_Street_Circuit_--_2019_--_4479.jpg"
+    },
+    {
+      "key": "pitlane-0",
+      "category": "pitlane",
+      "path": "assets/images/pitlane/00-malaysia-f1-gp-2013-9168061638.webp",
+      "width": 3840,
+      "height": 2550,
+      "variants": [
+        "assets/images/pitlane/00-malaysia-f1-gp-2013-9168061638-640.webp",
+        "assets/images/pitlane/00-malaysia-f1-gp-2013-9168061638-1280.webp",
+        "assets/images/pitlane/00-malaysia-f1-gp-2013-9168061638-1920.webp",
+        "assets/images/pitlane/00-malaysia-f1-gp-2013-9168061638-2560.webp"
+      ],
+      "title": "Malaysia F1 GP 2013 (9168061638).jpg",
+      "author": "zhul",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Malaysia_F1_GP_2013_(9168061638).jpg"
+    },
+    {
+      "key": "pitlane-1",
+      "category": "pitlane",
+      "path": "assets/images/pitlane/01-malaysia-f1-gp-2013-9168059428.webp",
+      "width": 3840,
+      "height": 2550,
+      "variants": [
+        "assets/images/pitlane/01-malaysia-f1-gp-2013-9168059428-640.webp",
+        "assets/images/pitlane/01-malaysia-f1-gp-2013-9168059428-1280.webp",
+        "assets/images/pitlane/01-malaysia-f1-gp-2013-9168059428-1920.webp",
+        "assets/images/pitlane/01-malaysia-f1-gp-2013-9168059428-2560.webp"
+      ],
+      "title": "Malaysia F1 GP 2013 (9168059428).jpg",
+      "author": "zhul",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Malaysia_F1_GP_2013_(9168059428).jpg"
+    },
+    {
+      "key": "pitlane-2",
+      "category": "pitlane",
+      "path": "assets/images/pitlane/02-malaysia-f1-gp-2013-9168060276.webp",
+      "width": 3840,
+      "height": 2550,
+      "variants": [
+        "assets/images/pitlane/02-malaysia-f1-gp-2013-9168060276-640.webp",
+        "assets/images/pitlane/02-malaysia-f1-gp-2013-9168060276-1280.webp",
+        "assets/images/pitlane/02-malaysia-f1-gp-2013-9168060276-1920.webp",
+        "assets/images/pitlane/02-malaysia-f1-gp-2013-9168060276-2560.webp"
+      ],
+      "title": "Malaysia F1 GP 2013 (9168060276).jpg",
+      "author": "zhul",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Malaysia_F1_GP_2013_(9168060276).jpg"
+    },
+    {
+      "key": "drivers-0",
+      "category": "drivers",
+      "path": "assets/images/drivers/00-lewis-hamilton-during-hungarian-formula-1-gp.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/drivers/00-lewis-hamilton-during-hungarian-formula-1-gp-640.webp",
+        "assets/images/drivers/00-lewis-hamilton-during-hungarian-formula-1-gp-1280.webp",
+        "assets/images/drivers/00-lewis-hamilton-during-hungarian-formula-1-gp-1920.webp",
+        "assets/images/drivers/00-lewis-hamilton-during-hungarian-formula-1-gp-2560.webp"
+      ],
+      "title": "Lewis Hamilton during Hungarian Formula 1 GP.jpg",
+      "author": "Michał Obrochta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_during_Hungarian_Formula_1_GP.jpg"
+    },
+    {
+      "key": "drivers-1",
+      "category": "drivers",
+      "path": "assets/images/drivers/01-f1-red-bull-racing-max-verstappen-27965384384.webp",
+      "width": 3840,
+      "height": 2880,
+      "variants": [
+        "assets/images/drivers/01-f1-red-bull-racing-max-verstappen-27965384384-640.webp",
+        "assets/images/drivers/01-f1-red-bull-racing-max-verstappen-27965384384-1280.webp",
+        "assets/images/drivers/01-f1-red-bull-racing-max-verstappen-27965384384-1920.webp",
+        "assets/images/drivers/01-f1-red-bull-racing-max-verstappen-27965384384-2560.webp"
+      ],
+      "title": "F1 - Red Bull Racing - Max Verstappen (27965384384).jpg",
+      "author": "Jen_ross83",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:F1_-_Red_Bull_Racing_-_Max_Verstappen_(27965384384).jpg"
+    },
+    {
+      "key": "drivers-2",
+      "category": "drivers",
+      "path": "assets/images/drivers/02-fia-f1-austria-2018-nr-14-alonso.webp",
+      "width": 3840,
+      "height": 2160,
+      "variants": [
+        "assets/images/drivers/02-fia-f1-austria-2018-nr-14-alonso-640.webp",
+        "assets/images/drivers/02-fia-f1-austria-2018-nr-14-alonso-1280.webp",
+        "assets/images/drivers/02-fia-f1-austria-2018-nr-14-alonso-1920.webp",
+        "assets/images/drivers/02-fia-f1-austria-2018-nr-14-alonso-2560.webp"
+      ],
+      "title": "FIA F1 Austria 2018 Nr. 14 Alonso.jpg",
+      "author": "Lukas Raich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2018_Nr._14_Alonso.jpg"
+    },
+    {
+      "key": "drivers-3",
+      "category": "drivers",
+      "path": "assets/images/drivers/03-lando-norris-during-hungarian-formula-1-gp.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/drivers/03-lando-norris-during-hungarian-formula-1-gp-640.webp",
+        "assets/images/drivers/03-lando-norris-during-hungarian-formula-1-gp-1280.webp",
+        "assets/images/drivers/03-lando-norris-during-hungarian-formula-1-gp-1920.webp",
+        "assets/images/drivers/03-lando-norris-during-hungarian-formula-1-gp-2560.webp"
+      ],
+      "title": "Lando Norris during Hungarian Formula 1 GP.jpg",
+      "author": "Michał Obrochta",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lando_Norris_during_Hungarian_Formula_1_GP.jpg"
+    },
+    {
+      "key": "drivers-4",
+      "category": "drivers",
+      "path": "assets/images/drivers/04-ayrton-senna-mclaren-mp4-6-1991-united-states.webp",
+      "width": 3840,
+      "height": 2584,
+      "variants": [
+        "assets/images/drivers/04-ayrton-senna-mclaren-mp4-6-1991-united-states-640.webp",
+        "assets/images/drivers/04-ayrton-senna-mclaren-mp4-6-1991-united-states-1280.webp",
+        "assets/images/drivers/04-ayrton-senna-mclaren-mp4-6-1991-united-states-1920.webp",
+        "assets/images/drivers/04-ayrton-senna-mclaren-mp4-6-1991-united-states-2560.webp"
+      ],
+      "title": "Ayrton Senna McLaren MP4-6 1991 United States.jpg",
+      "author": "wileynorwichphoto",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_McLaren_MP4-6_1991_United_States.jpg"
+    },
+    {
+      "key": "details-4",
+      "category": "details",
+      "path": "assets/images/details/04-pirelli-tire-range-52849596009.webp",
+      "width": 3840,
+      "height": 2160,
+      "variants": [
+        "assets/images/details/04-pirelli-tire-range-52849596009-640.webp",
+        "assets/images/details/04-pirelli-tire-range-52849596009-1280.webp",
+        "assets/images/details/04-pirelli-tire-range-52849596009-1920.webp",
+        "assets/images/details/04-pirelli-tire-range-52849596009-2560.webp"
+      ],
+      "title": "Pirelli Tire Range (52849596009).jpg",
+      "author": "Steve",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pirelli_Tire_Range_(52849596009).jpg"
+    },
+    {
+      "key": "details-5",
+      "category": "details",
+      "path": "assets/images/details/05-mclaren-mp4-23-steering-wheel-at-formula-1-exhibition-london.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/details/05-mclaren-mp4-23-steering-wheel-at-formula-1-exhibition-london-640.webp",
+        "assets/images/details/05-mclaren-mp4-23-steering-wheel-at-formula-1-exhibition-london-1280.webp",
+        "assets/images/details/05-mclaren-mp4-23-steering-wheel-at-formula-1-exhibition-london-1920.webp",
+        "assets/images/details/05-mclaren-mp4-23-steering-wheel-at-formula-1-exhibition-london-2560.webp"
+      ],
+      "title": "McLaren MP4-23 Steering Wheel at Formula 1 Exhibition, London.jpg",
+      "author": "Hullian111",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-23_Steering_Wheel_at_Formula_1_Exhibition,_London.jpg"
+    },
+    {
+      "key": "gallery-6",
+      "category": "gallery",
+      "path": "assets/images/gallery/06-kamui-kobayashi-2012-japan-race.webp",
+      "width": 2560,
+      "height": 1280,
+      "variants": [
+        "assets/images/gallery/06-kamui-kobayashi-2012-japan-race-640.webp",
+        "assets/images/gallery/06-kamui-kobayashi-2012-japan-race-1280.webp",
+        "assets/images/gallery/06-kamui-kobayashi-2012-japan-race-1920.webp",
+        "assets/images/gallery/06-kamui-kobayashi-2012-japan-race.webp"
+      ],
+      "title": "Kamui Kobayashi 2012 Japan Race.jpg",
+      "author": "Morio",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamui_Kobayashi_2012_Japan_Race.jpg"
+    },
+    {
+      "key": "gallery-7",
+      "category": "gallery",
+      "path": "assets/images/gallery/07-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr.webp",
+      "width": 3840,
+      "height": 2560,
+      "variants": [
+        "assets/images/gallery/07-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-640.webp",
+        "assets/images/gallery/07-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-1280.webp",
+        "assets/images/gallery/07-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-1920.webp",
+        "assets/images/gallery/07-scott-speed-driving-an-rb7-for-red-bull-racing-at-the-2025-adelaide-gr-2560.webp"
+      ],
+      "title": "Scott Speed Driving an RB7 for Red Bull Racing at the 2025 Adelaide Grand Final - 03.jpg",
+      "author": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scott_Speed_Driving_an_RB7_for_Red_Bull_Racing_at_the_2025_Adelaide_Grand_Final_-_03.jpg"
+    },
+    {
+      "key": "backgrounds-1",
+      "category": "backgrounds",
+      "path": "assets/images/backgrounds/01-f1-paddock-access-24840809858.webp",
+      "width": 3840,
+      "height": 2743,
+      "variants": [
+        "assets/images/backgrounds/01-f1-paddock-access-24840809858-640.webp",
+        "assets/images/backgrounds/01-f1-paddock-access-24840809858-1280.webp",
+        "assets/images/backgrounds/01-f1-paddock-access-24840809858-1920.webp",
+        "assets/images/backgrounds/01-f1-paddock-access-24840809858-2560.webp"
+      ],
+      "title": "F1 Paddock Access (24840809858).jpg",
+      "author": "Steve_Melnyk",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:F1_Paddock_Access_(24840809858).jpg"
+    },
+    {
+      "key": "history-0",
+      "category": "history",
+      "path": "assets/images/history/00-alfa-romeo-158-alfetta.webp",
+      "width": 2560,
+      "height": 2217,
+      "variants": [
+        "assets/images/history/00-alfa-romeo-158-alfetta-640.webp",
+        "assets/images/history/00-alfa-romeo-158-alfetta-1280.webp",
+        "assets/images/history/00-alfa-romeo-158-alfetta-1920.webp",
+        "assets/images/history/00-alfa-romeo-158-alfetta.webp"
+      ],
+      "title": "Alfa Romeo 158 Alfetta.jpg",
+      "author": "Milan Tošnar",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_158_Alfetta.jpg"
+    },
+    {
+      "key": "history-1",
+      "category": "history",
+      "path": "assets/images/history/01-1959-cooper-climax-t51-goodwood-2009-02.webp",
+      "width": 2000,
+      "height": 3008,
+      "variants": [
+        "assets/images/history/01-1959-cooper-climax-t51-goodwood-2009-02-640.webp",
+        "assets/images/history/01-1959-cooper-climax-t51-goodwood-2009-02-1280.webp",
+        "assets/images/history/01-1959-cooper-climax-t51-goodwood-2009-02-1920.webp",
+        "assets/images/history/01-1959-cooper-climax-t51-goodwood-2009-02.webp"
+      ],
+      "title": "1959 Cooper Climax T51 Goodwood, 2009 (02).jpg",
+      "author": "Bahnfrend",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:1959_Cooper_Climax_T51_Goodwood,_2009_(02).jpg"
+    },
+    {
+      "key": "history-2",
+      "category": "history",
+      "path": "assets/images/history/02-clarkjim-lotus19620805.webp",
+      "width": 2560,
+      "height": 1763,
+      "variants": [
+        "assets/images/history/02-clarkjim-lotus19620805-640.webp",
+        "assets/images/history/02-clarkjim-lotus19620805-1280.webp",
+        "assets/images/history/02-clarkjim-lotus19620805-1920.webp",
+        "assets/images/history/02-clarkjim-lotus19620805.webp"
+      ],
+      "title": "ClarkJim-Lotus19620805.jpg",
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "source": "https://commons.wikimedia.org/wiki/File:ClarkJim-Lotus19620805.jpg"
+    },
+    {
+      "key": "history-3",
+      "category": "history",
+      "path": "assets/images/history/03-lotus-49-at-goodwood-2012.webp",
+      "width": 2560,
+      "height": 1626,
+      "variants": [
+        "assets/images/history/03-lotus-49-at-goodwood-2012-640.webp",
+        "assets/images/history/03-lotus-49-at-goodwood-2012-1280.webp",
+        "assets/images/history/03-lotus-49-at-goodwood-2012-1920.webp",
+        "assets/images/history/03-lotus-49-at-goodwood-2012.webp"
+      ],
+      "title": "Lotus 49 at Goodwood 2012.jpg",
+      "author": "Nic Redhead from Birmingham, UK",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lotus_49_at_Goodwood_2012.jpg"
+    },
+    {
+      "key": "history-4",
+      "category": "history",
+      "path": "assets/images/history/04-lotus-79-2009-lime-rock.webp",
+      "width": 2560,
+      "height": 1616,
+      "variants": [
+        "assets/images/history/04-lotus-79-2009-lime-rock-640.webp",
+        "assets/images/history/04-lotus-79-2009-lime-rock-1280.webp",
+        "assets/images/history/04-lotus-79-2009-lime-rock-1920.webp",
+        "assets/images/history/04-lotus-79-2009-lime-rock.webp"
+      ],
+      "title": "Lotus 79 2009 Lime Rock.jpg",
+      "author": "Mike Powell from United States",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Lotus_79_2009_Lime_Rock.jpg"
+    },
+    {
+      "key": "history-5",
+      "category": "history",
+      "path": "assets/images/history/05-renault-turbo-1980.webp",
+      "width": 2560,
+      "height": 1660,
+      "variants": [
+        "assets/images/history/05-renault-turbo-1980-640.webp",
+        "assets/images/history/05-renault-turbo-1980-1280.webp",
+        "assets/images/history/05-renault-turbo-1980-1920.webp",
+        "assets/images/history/05-renault-turbo-1980.webp"
+      ],
+      "title": "Renault turbo 1980.jpg",
+      "author": "m duchèsne",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Renault_turbo_1980.jpg"
+    },
+    {
+      "key": "history-6",
+      "category": "history",
+      "path": "assets/images/history/06-ayrton-senna-mclaren-mp4-6-1991-united-states.webp",
+      "width": 2560,
+      "height": 1723,
+      "variants": [
+        "assets/images/history/06-ayrton-senna-mclaren-mp4-6-1991-united-states-640.webp",
+        "assets/images/history/06-ayrton-senna-mclaren-mp4-6-1991-united-states-1280.webp",
+        "assets/images/history/06-ayrton-senna-mclaren-mp4-6-1991-united-states-1920.webp",
+        "assets/images/history/06-ayrton-senna-mclaren-mp4-6-1991-united-states.webp"
+      ],
+      "title": "Ayrton Senna McLaren MP4-6 1991 United States.jpg",
+      "author": "wileynorwichphoto",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_McLaren_MP4-6_1991_United_States.jpg"
+    },
+    {
+      "key": "history-7",
+      "category": "history",
+      "path": "assets/images/history/07-benetton-ford-schumacher.webp",
+      "width": 2560,
+      "height": 1707,
+      "variants": [
+        "assets/images/history/07-benetton-ford-schumacher-640.webp",
+        "assets/images/history/07-benetton-ford-schumacher-1280.webp",
+        "assets/images/history/07-benetton-ford-schumacher-1920.webp",
+        "assets/images/history/07-benetton-ford-schumacher.webp"
+      ],
+      "title": "Benetton Ford Schumacher.jpg",
+      "author": "Hydro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Benetton_Ford_Schumacher.jpg"
+    },
+    {
+      "key": "history-8",
+      "category": "history",
+      "path": "assets/images/history/08-2002-ferrari-f2002.webp",
+      "width": 2560,
+      "height": 1919,
+      "variants": [
+        "assets/images/history/08-2002-ferrari-f2002-640.webp",
+        "assets/images/history/08-2002-ferrari-f2002-1280.webp",
+        "assets/images/history/08-2002-ferrari-f2002-1920.webp",
+        "assets/images/history/08-2002-ferrari-f2002.webp"
+      ],
+      "title": "2002 Ferrari F2002.jpg",
+      "author": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2002_Ferrari_F2002.jpg"
+    },
+    {
+      "key": "history-9",
+      "category": "history",
+      "path": "assets/images/history/09-red-bull-racing-no-1-sebastian-vettel-1-15592600192.webp",
+      "width": 2560,
+      "height": 1707,
+      "variants": [
+        "assets/images/history/09-red-bull-racing-no-1-sebastian-vettel-1-15592600192-640.webp",
+        "assets/images/history/09-red-bull-racing-no-1-sebastian-vettel-1-15592600192-1280.webp",
+        "assets/images/history/09-red-bull-racing-no-1-sebastian-vettel-1-15592600192-1920.webp",
+        "assets/images/history/09-red-bull-racing-no-1-sebastian-vettel-1-15592600192.webp"
+      ],
+      "title": "Red Bull Racing, No.1 Sebastian Vettel (1) (15592600192).jpg",
+      "author": "Takayuki Suzuki from Kanagawa, Japan",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Red_Bull_Racing,_No.1_Sebastian_Vettel_(1)_(15592600192).jpg"
+    },
+    {
+      "key": "history-11",
+      "category": "history",
+      "path": "assets/images/history/11-2022-miami-gp-red-bull-rb18-of-sergio-p-rez.webp",
+      "width": 2560,
+      "height": 1339,
+      "variants": [
+        "assets/images/history/11-2022-miami-gp-red-bull-rb18-of-sergio-p-rez-640.webp",
+        "assets/images/history/11-2022-miami-gp-red-bull-rb18-of-sergio-p-rez-1280.webp",
+        "assets/images/history/11-2022-miami-gp-red-bull-rb18-of-sergio-p-rez-1920.webp",
+        "assets/images/history/11-2022-miami-gp-red-bull-rb18-of-sergio-p-rez.webp"
+      ],
+      "title": "2022 Miami GP - Red Bull RB18 of Sergio Pérez.jpg",
+      "author": "Dcmaradiaga",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:2022_Miami_GP_-_Red_Bull_RB18_of_Sergio_P%C3%A9rez.jpg"
+    },
+    {
+      "key": "history-10",
+      "category": "history",
+      "path": "assets/images/history/10-mercedes-no-44-lewis-hamilton-2-15538317559.webp",
+      "width": 2560,
+      "height": 1707,
+      "variants": [
+        "assets/images/history/10-mercedes-no-44-lewis-hamilton-2-15538317559-640.webp",
+        "assets/images/history/10-mercedes-no-44-lewis-hamilton-2-15538317559-1280.webp",
+        "assets/images/history/10-mercedes-no-44-lewis-hamilton-2-15538317559-1920.webp",
+        "assets/images/history/10-mercedes-no-44-lewis-hamilton-2-15538317559.webp"
+      ],
+      "title": "Mercedes, No.44 Lewis Hamilton (2) (15538317559).jpg",
+      "author": "Takayuki Suzuki from Kanagawa, Japan",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mercedes,_No.44_Lewis_Hamilton_(2)_(15538317559).jpg"
+    }
+  ],
+  "environments": [
+    {
+      "id": "dikhololo_night",
+      "type": "hdri",
+      "path": "assets/environments/dikhololo_night.hdr",
+      "bytes": 1745132,
+      "source": "https://polyhaven.com/a/dikhololo_night",
+      "license": "CC0",
+      "attribution": "dikhololo_night - Poly Haven (CC0)"
+    },
+    {
+      "id": "satara_night",
+      "type": "hdri",
+      "path": "assets/environments/satara_night.hdr",
+      "bytes": 1873456,
+      "source": "https://polyhaven.com/a/satara_night",
+      "license": "CC0",
+      "attribution": "satara_night - Poly Haven (CC0)"
+    },
+    {
+      "id": "studio_small_09",
+      "type": "hdri",
+      "path": "assets/environments/studio_small_09.hdr",
+      "bytes": 1615248,
+      "source": "https://polyhaven.com/a/studio_small_09",
+      "license": "CC0",
+      "attribution": "studio_small_09 - Poly Haven (CC0)"
+    },
+    {
+      "id": "moonless_golf",
+      "type": "hdri",
+      "path": "assets/environments/moonless_golf.hdr",
+      "bytes": 1672754,
+      "source": "https://polyhaven.com/a/moonless_golf",
+      "license": "CC0",
+      "attribution": "moonless_golf - Poly Haven (CC0)"
+    },
+    {
+      "id": "kloofendal_48d_partly_cloudy_puresky",
+      "type": "hdri",
+      "path": "assets/environments/kloofendal_48d_partly_cloudy_puresky.hdr",
+      "bytes": 1435119,
+      "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+      "license": "CC0",
+      "attribution": "kloofendal_48d_partly_cloudy_puresky - Poly Haven (CC0)"
+    }
+  ],
+  "fonts": [
+    {
+      "path": "assets/fonts/barlow-condensed-600-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-600-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-700-italic-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-700-italic-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-700-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-700-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-800-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/barlow-condensed-800-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-400-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-400-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-500-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-500-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-600-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-600-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-700-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/inter-700-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-400-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-400-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-500-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-500-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-700-normal-latin-ext.woff2",
+      "license": "SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/jetbrains-mono-700-normal-latin.woff2",
+      "license": "SIL OFL 1.1"
+    }
+  ],
+  "icons": [
+    {
+      "path": "assets/icons/f1.svg",
+      "bytes": 0,
+      "license": "Original work (this project)",
+      "attribution": "F1"
+    }
+  ],
+  "models": [],
+  "audio": []
+}

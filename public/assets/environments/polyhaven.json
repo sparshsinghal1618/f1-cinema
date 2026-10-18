@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dikhololo_night",
+    "type": "hdri",
+    "file": "assets/environments/dikhololo_night.hdr",
+    "bytes": 1745132,
+    "source": "https://polyhaven.com/a/dikhololo_night",
+    "license": "CC0"
+  },
+  {
+    "id": "satara_night",
+    "type": "hdri",
+    "file": "assets/environments/satara_night.hdr",
+    "bytes": 1873456,
+    "source": "https://polyhaven.com/a/satara_night",
+    "license": "CC0"
+  },
+  {
+    "id": "studio_small_09",
+    "type": "hdri",
+    "file": "assets/environments/studio_small_09.hdr",
+    "bytes": 1615248,
+    "source": "https://polyhaven.com/a/studio_small_09",
+    "license": "CC0"
+  },
+  {
+    "id": "moonless_golf",
+    "type": "hdri",
+    "file": "assets/environments/moonless_golf.hdr",
+    "bytes": 1672754,
+    "source": "https://polyhaven.com/a/moonless_golf",
+    "license": "CC0"
+  },
+  {
+    "id": "kloofendal_48d_partly_cloudy_puresky",
+    "type": "hdri",
+    "file": "assets/environments/kloofendal_48d_partly_cloudy_puresky.hdr",
+    "bytes": 1435119,
+    "source": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+    "license": "CC0"
+  },
+  {
+    "id": "metal_plate",
+    "type": "texture",
+    "source": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0",
+    "files": {}
+  },
+  {
+    "id": "aerial_beach_01",
+    "type": "texture",
+    "source": "https://polyhaven.com/a/aerial_beach_01",
+    "license": "CC0",
+    "files": {}
+  }
+]

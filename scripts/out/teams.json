@@ -1,0 +1,329 @@
+{
+  "fetched": "2026-10-17T06:36:26.582Z",
+  "season": "2026 Formula One World Championship",
+  "teams": [
+    {
+      "entrant": "BWT Alpine F1 Team",
+      "short": "Alpine",
+      "constructor": "Alpine-Mercedes",
+      "teamPage": "Alpine F1 Team",
+      "chassis": "A526",
+      "powerUnit": "Mercedes-AMG F1 M17",
+      "numbers": "10 43",
+      "drivers": [
+        "Pierre Gasly",
+        "Franco Colapinto"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Enstone, Oxfordshire, England (Chassis design and assembly) Viry-Châtillon, France (Power unit; 2021–2025)",
+        "principal": "Flavio Briatore (Executive Advisor) Steve Nielsen (Managing Director)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "2021 Bahrain Grand Prix",
+        "races": "131 (131 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Renault, Mercedes",
+        "source": "https://en.wikipedia.org/wiki/Alpine_F1_Team"
+      }
+    },
+    {
+      "entrant": "Aston Martin Aramco F1 Team",
+      "short": "Aston Martin Aramco",
+      "constructor": "Aston Martin Aramco-Honda",
+      "teamPage": "Aston Martin in Formula One",
+      "chassis": "AMR26",
+      "powerUnit": "Honda RA626H",
+      "numbers": "14 18",
+      "drivers": [
+        "Fernando Alonso",
+        "Lance Stroll"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Newport Pagnell, Buckinghamshire, England (1959–1960) Silverstone, Northamptonshire, England (2021–present)",
+        "principal": "Lawrence Stroll (Chairman) Adrian Newey (Team Principal and Managing Technical Partner)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "1959 Dutch Grand Prix",
+        "races": "137 (136 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Aston Martin, Mercedes, Honda",
+        "source": "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One"
+      }
+    },
+    {
+      "entrant": "Atlassian Williams F1 Team",
+      "short": "Atlassian Williams",
+      "constructor": "Atlassian Williams-Mercedes",
+      "teamPage": "Williams Racing",
+      "chassis": "FW48",
+      "powerUnit": "Mercedes-AMG F1 M17",
+      "numbers": "23 55",
+      "drivers": [
+        "Alexander Albon",
+        "Carlos Sainz Jr."
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Grove, Oxfordshire, England",
+        "principal": "Matthew Savage (Chairman) James Vowles (Team Principal)",
+        "constructorsTitles": "9 ( 1980, 1981, 1986, 1987, 1992, 1993, 1994, 1996, 1997 )",
+        "driversTitles": "7 ( 1980, 1982, 1987, 1992, 1993, 1996, 1997 )",
+        "firstEntry": "As a team 1977 Spanish Grand Prix As a constructor 1978 Argentine Grand Prix",
+        "races": "As a team: 879 entries (875 starts) As a constructor: 868 entries (867 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Ford, Honda, Judd, Renault, Mecachrome, Supertec, BMW, Cosworth, Toyota, Mercedes",
+        "source": "https://en.wikipedia.org/wiki/Williams_Racing"
+      }
+    },
+    {
+      "entrant": "Audi Revolut F1 Team",
+      "short": "Audi",
+      "constructor": "Audi",
+      "teamPage": "Audi in Formula One",
+      "chassis": "R26",
+      "powerUnit": "Audi AFR 26 Hybrid",
+      "numbers": "5 27",
+      "drivers": [
+        "Gabriel Bortoleto",
+        "Nico Hülkenberg"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Hinwil, Zurich, Switzerland Bicester, Oxfordshire, United Kingdom, Neuburg an der Donau, Bavaria, Germany",
+        "principal": "Mattia Binotto (CEO and Team Principal) Allan McNish (Racing Director)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "2026 Australian Grand Prix",
+        "races": "17 (17 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Audi",
+        "source": "https://en.wikipedia.org/wiki/Audi_in_Formula_One"
+      }
+    },
+    {
+      "entrant": "Cadillac Formula 1 Team",
+      "short": "Cadillac",
+      "constructor": "Cadillac-Ferrari",
+      "teamPage": "Cadillac in Formula One",
+      "chassis": "MAC-26",
+      "powerUnit": "Ferrari 067/6",
+      "numbers": "11 77",
+      "drivers": [
+        "Sergio Pérez",
+        "Valtteri Bottas"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Fishers, Indiana, U.S. Concord, North Carolina, U.S. Warren, Michigan, U.S. Silverstone, England",
+        "principal": "Marcin Budkowski (Team Principal) Dan Towriss (CEO) Rob White (COO)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "2026 Australian Grand Prix",
+        "races": "17 (17 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Ferrari",
+        "source": "https://en.wikipedia.org/wiki/Cadillac_in_Formula_One"
+      }
+    },
+    {
+      "entrant": "Scuderia Ferrari HP",
+      "short": "Ferrari",
+      "constructor": "Ferrari",
+      "teamPage": "Scuderia Ferrari",
+      "chassis": "SF-26",
+      "powerUnit": "Ferrari 067/6",
+      "numbers": "16 44",
+      "drivers": [
+        "Charles Leclerc",
+        "Lewis Hamilton"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Maranello, Modena, Italy 10°51′47″E / ( Ferrari's facilities at Maranello )",
+        "principal": "Fred Vasseur Jérôme d'Ambrosio (Deputy Team Principal)",
+        "constructorsTitles": "16 ( 1961, 1964, 1975, 1976, 1977, 1979, 1982, 1983, 1999, 2000, 2001, 2002, 2003, 2004, 2007, 2008 )",
+        "driversTitles": "15 ( 1952, 1953, 1956, 1958, 1961, 1964, 1975, 1977, 1979, 2000, 2001, 2002, 2003, 2004, 2007 )",
+        "firstEntry": "1950 Monaco Grand Prix",
+        "races": "1141 [ a ] (1138 starts [ b ] )",
+        "wins": null,
+        "poles": null,
+        "engines": "Ferrari",
+        "source": "https://en.wikipedia.org/wiki/Scuderia_Ferrari"
+      }
+    },
+    {
+      "entrant": "TGR Haas F1 Team",
+      "short": "Haas",
+      "constructor": "Haas-Ferrari",
+      "teamPage": "Haas F1 Team",
+      "chassis": "VF-26",
+      "powerUnit": "Ferrari 067/6",
+      "numbers": "31 87",
+      "drivers": [
+        "Esteban Ocon",
+        "Oliver Bearman"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Kannapolis, North Carolina, U.S. (Main) Banbury, Oxfordshire, England (European) Maranello, Modena, Italy (Design Office)",
+        "principal": "Gene Haas (Team Owner & Chairman) Joe Custer (COO) Ayao Komatsu (Team Principal)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "2016 Australian Grand Prix",
+        "races": "231",
+        "wins": null,
+        "poles": null,
+        "engines": "Ferrari",
+        "source": "https://en.wikipedia.org/wiki/Haas_F1_Team"
+      }
+    },
+    {
+      "entrant": "McLaren Mastercard F1 Team",
+      "short": "McLaren",
+      "constructor": "McLaren-Mercedes",
+      "teamPage": "McLaren",
+      "chassis": "MCL40",
+      "powerUnit": "Mercedes-AMG F1 M17",
+      "numbers": "1 81",
+      "drivers": [
+        "Lando Norris",
+        "Oscar Piastri"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "McLaren Technology Centre Woking, Surrey, England",
+        "principal": "Andrea Stella (Team Principal) Zak Brown (Chief Executive Officer)",
+        "constructorsTitles": "10 ( 1974, 1984, 1985, 1988, 1989, 1990, 1991, 1998, 2024, 2025 )",
+        "driversTitles": "13 ( 1974, 1976, 1984, 1985, 1986, 1988, 1989, 1990, 1991, 1998, 1999, 2008, 2025 )",
+        "firstEntry": "1966 Monaco Grand Prix",
+        "races": "1015 (1010 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Ford, Serenissima, BRM, Alfa Romeo, TAG, Honda, Peugeot, Mercedes, Renault",
+        "source": "https://en.wikipedia.org/wiki/McLaren"
+      }
+    },
+    {
+      "entrant": "Mercedes-AMG Petronas F1 Team",
+      "short": "Mercedes",
+      "constructor": "Mercedes",
+      "teamPage": "Mercedes-Benz in Formula One",
+      "chassis": "F1 W17",
+      "powerUnit": "Mercedes-AMG F1 M17",
+      "numbers": "12 63",
+      "drivers": [
+        "Kimi Antonelli",
+        "George Russell"
+      ],
+      "rounds": [
+        "1–17",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Stuttgart, Baden-Württemberg, Germany (1954–1955) Brackley, England (2010–present)",
+        "principal": "Toto Wolff (Team Principal & CEO) Bradley Lord (Deputy Team Principal)",
+        "constructorsTitles": "8 ( 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021 )",
+        "driversTitles": "9 ( 1954, 1955, 2014, 2015, 2016, 2017, 2018, 2019, 2020 )",
+        "firstEntry": "1954 French Grand Prix",
+        "races": "358",
+        "wins": null,
+        "poles": null,
+        "engines": "Mercedes",
+        "source": "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One"
+      }
+    },
+    {
+      "entrant": "Visa Cash App Racing Bulls F1 Team",
+      "short": "Racing Bulls",
+      "constructor": "Racing Bulls-Red Bull Ford",
+      "teamPage": "Racing Bulls",
+      "chassis": "VCARB 03",
+      "powerUnit": "Red Bull Ford DM01",
+      "numbers": "30 22 41",
+      "drivers": [
+        "Liam Lawson",
+        "Yuki Tsunoda",
+        "Arvid Lindblad"
+      ],
+      "rounds": [
+        "1–11, 15–17",
+        "12–14",
+        "1–17"
+      ],
+      "fields": {
+        "base": "Faenza, Italy Milton Keynes, Buckinghamshire, England",
+        "principal": "Peter Bayer (Chief Executive Officer) Alan Permane (Team Principal)",
+        "constructorsTitles": "0",
+        "driversTitles": "0",
+        "firstEntry": "2024 Bahrain Grand Prix",
+        "races": "65 (65 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Honda RBPT, Red Bull Ford",
+        "source": "https://en.wikipedia.org/wiki/Racing_Bulls"
+      }
+    },
+    {
+      "entrant": "Oracle Red Bull Racing",
+      "short": "Red Bull Racing",
+      "constructor": "Red Bull Racing-Red Bull Ford",
+      "teamPage": "Red Bull Racing",
+      "chassis": "RB22",
+      "powerUnit": "Red Bull Ford DM01",
+      "numbers": "3 6 30",
+      "drivers": [
+        "Max Verstappen",
+        "Isack Hadjar",
+        "Liam Lawson"
+      ],
+      "rounds": [
+        "1–17",
+        "1–11, 15–17",
+        "12–14"
+      ],
+      "fields": {
+        "base": "Milton Keynes, Buckinghamshire, England",
+        "principal": "Laurent Mekies (Team Principal and CEO)",
+        "constructorsTitles": "6 ( 2010, 2011, 2012, 2013, 2022, 2023 )",
+        "driversTitles": "8 ( 2010, 2011, 2012, 2013, 2021, 2022, 2023, 2024 )",
+        "firstEntry": "2005 Australian Grand Prix",
+        "races": "435 (434 starts)",
+        "wins": null,
+        "poles": null,
+        "engines": "Cosworth, Ferrari, Renault, TAG Heuer, Honda, RBPT, Red Bull Ford",
+        "source": "https://en.wikipedia.org/wiki/Red_Bull_Racing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+/* Component styles: header, popovers, image frames, stats, lightbox.
+   Layout that belongs to one section lives in sections.css. */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.head__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ------------------------------------------------------------------- stats */
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+  gap: 0;
+  margin: 0;
+}
+
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 14px 14px 14px 16px;
+  border-left: 1px solid var(--line);
+}
+
+.stats__item dt {
+  color: var(--dim);
+  text-transform: uppercase;
+}
+
+.stats__item dd {
+  margin: 0;
+}
+
+.stats__item .data {
+  font-size: 15px;
+  color: var(--white);
+}
+
+.stats__note {
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+/* ------------------------------------------------------------ image frames */
+
+.frame {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  aspect-ratio: var(--frame-ratio, 16 / 9);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background-color: var(--panel-2);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: inherit;
+}
+
+.frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.7s var(--ease), transform 1.2s var(--ease);
+}
+
+.frame.is-loaded img {
+  opacity: 1;
+}
+
+.frame--button {
+  cursor: pointer;
+}
+
+.frame--button:hover img,
+.frame--button:focus-visible img {
+  transform: scale(1.04);
+}
+
+.frame--button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px transparent;
+  transition: box-shadow 0.3s var(--ease);
+  pointer-events: none;
+}
+
+.frame--button:hover::after,
+.frame--button:focus-visible::after {
+  box-shadow: inset 0 0 0 1px var(--line-red);
+}
+
+.frame--missing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 22px;
+  text-align: center;
+  border-style: dashed;
+  background-image: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.012) 0 12px,
+    transparent 12px 24px
+  );
+}
+
+.frame__missing-alt {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--dim);
+  max-width: 42ch;
+}
+
+.credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 9.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.credit a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.credit a:hover {
+  color: var(--white);
+}
+
+/* ---------------------------------------------------------------- lightbox */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: rgba(4, 4, 5, 0.965);
+  backdrop-filter: blur(16px);
+}
+
+.lightbox__bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 13px var(--pad-x);
+  border-bottom: 1px solid var(--line);
+}
+
+.lightbox__title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--silver);
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+}
+
+.lightbox__stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-height: 0;
+  padding: clamp(12px, 2.4vw, 34px);
+}
+
+.lightbox__stage img {
+  max-width: 100%;
+  max-height: 66vh;
+  object-fit: contain;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.72);
+}
+
+.lightbox__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 80ch;
+  text-align: center;
+}
+
+.lightbox__caption .copy {
+  font-size: 14px;
+}
+
+.lightbox__caption a {
+  color: var(--muted);
+}
+
+.lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(10, 11, 13, 0.72);
+}
+
+.lightbox__prev {
+  left: clamp(6px, 1.6vw, 26px);
+}
+
+.lightbox__next {
+  right: clamp(6px, 1.6vw, 26px);
+}
+
+.lightbox__nav:hover {
+  background: rgba(225, 6, 0, 0.22);
+  border-color: var(--line-red);
+}
+
+@media (max-width: 720px) {
+  .lightbox__title {
+    display: none;
+  }
+
+  .lightbox__stage img {
+    max-height: 54vh;
+  }
+}
+
+/* ---------------------------------------------------------------- boundary */
+
+.boundary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+.boundary .copy {
+  font-size: 13px;
+}
+
+/* ------------------------------------------------------------------ header */
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  background: rgba(5, 5, 6, 0.86);
+  backdrop-filter: blur(18px) saturate(140%);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: var(--maxw);
+  height: 66px;
+  margin-inline: auto;
+  padding-inline: var(--pad-x);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.brand__mark {
+  display: flex;
+  color: var(--red);
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand__text strong {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.brand__text em {
+  margin-top: 4px;
+  font-style: normal;
+  font-family: var(--font-mono);
+  font-size: 8.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  min-width: 0;
+}
+
+.nav__link {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 9px 9px;
+  border-radius: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s var(--ease), background 0.2s var(--ease);
+}
+
+.nav__link:hover {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.nav__link.is-active {
+  color: var(--white);
+}
+
+.nav__index {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+}
+
+.nav__link.is-active .nav__index {
+  color: var(--red-bright);
+}
+
+.nav__link::after {
+  content: '';
+  position: absolute;
+  left: 9px;
+  right: 9px;
+  bottom: 3px;
+  height: 1px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease);
+}
+
+.nav__link.is-active::after {
+  transform: scaleX(1);
+}
+
+.topbar__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.topbar__burger {
+  display: none;
+}
+
+.topbar__progress {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  transform-origin: left;
+  background: linear-gradient(90deg, var(--red-deep), var(--red-bright));
+}
+
+/* ---------------------------------------------------------------- popovers */
+
+.pop {
+  position: relative;
+}
+
+.pop__trigger {
+  white-space: nowrap;
+}
+
+.pop__panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  z-index: 130;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: min(330px, calc(100vw - 28px));
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.65);
+}
+
+.pop__title {
+  margin-bottom: 8px;
+  color: var(--dim);
+}
+
+.pop__opt {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 11px;
+  text-align: left;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  color: var(--silver);
+  cursor: pointer;
+  transition: background 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.pop__opt:hover {
+  background: rgba(255, 255, 255, 0.045);
+  border-color: var(--line);
+}
+
+.pop__opt.is-on {
+  background: rgba(225, 6, 0, 0.09);
+  border-color: var(--line-red);
+  color: var(--white);
+}
+
+.pop__opt-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.pop__opt-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--red-bright);
+}
+
+.pop__opt-blurb {
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.pop__auto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 11px 11px 3px;
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--line);
+  color: var(--silver);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.pop__auto.is-on {
+  color: var(--white);
+}
+
+.pop__auto.is-on .mono {
+  color: var(--green);
+}
+
+.pop__foot {
+  margin-top: 10px;
+  overflow: hidden;
+  color: var(--dim);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pop__warn {
+  margin-top: 8px;
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--amber);
+}
+
+/* ------------------------------------------------------------------- sound */
+
+.sound {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sound__range {
+  width: 84px;
+  accent-color: var(--red);
+}
+
+/* ------------------------------------------------------------------ drawer */
+
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+  padding: 16px var(--pad-x) 36px;
+  background: rgba(4, 4, 5, 0.98);
+  backdrop-filter: blur(12px);
+  overflow-y: auto;
+}
+
+.drawer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.drawer__nav {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 24px;
+}
+
+.drawer__link {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 15px 2px;
+  border-bottom: 1px solid var(--line);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.drawer__label {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(26px, 7vw, 40px);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+.drawer__link:hover .drawer__label,
+.drawer__link:focus-visible .drawer__label {
+  color: var(--red-bright);
+}
+
+.drawer__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+}
+
+/* -------------------------------------------------------------- responsive */
+
+/* Eleven sections need more room than the ten the header was tuned for. Below this
+   width the decorative index is dropped and the link padding tightened so the row
+   still fits without colliding with the brand or the controls. */
+@media (max-width: 1660px) {
+  .nav__index {
+    display: none;
+  }
+
+  .nav__link {
+    padding: 9px 6px;
+  }
+
+  .nav__link::after {
+    left: 6px;
+    right: 6px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .nav {
+    display: none;
+  }
+
+  .topbar__burger {
+    display: inline-flex;
+  }
+
+  .topbar__controls {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .sound__label {
+    display: none;
+  }
+
+  .brand__text em {
+    display: none;
+  }
+
+  .pop__panel {
+    right: -6px;
+  }
+}
+
+/* On the narrowest phones the wordmark plus three controls no longer fit on one
+   line, so keep the logo mark and drop the wordmark rather than overflow. */
+@media (max-width: 400px) {
+  .brand__text {
+    display: none;
+  }
+
+  .topbar__inner {
+    gap: 12px;
+  }
+}

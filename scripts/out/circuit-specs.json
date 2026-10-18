@@ -1,0 +1,214 @@
+{
+  "circuits": {
+    "monaco": {
+      "page": "Circuit de Monaco",
+      "url": "https://en.wikipedia.org/wiki/Circuit_de_Monaco",
+      "length": "3.337",
+      "corners": "19",
+      "record": "1:12.909",
+      "debugFields": [
+        "|length_km      = 3.337",
+        "|length_mi      = 2.074",
+        "|turns          = 19",
+        "|length2_km     = 3.318",
+        "|length2_mi     = 2.062",
+        "|turns2         = 19"
+      ]
+    },
+    "silverstone": {
+      "page": "Silverstone Circuit",
+      "url": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+      "length": "5.891",
+      "corners": "18",
+      "record": "1:27.097",
+      "debugFields": [
+        "| length_km      = 5.891<ref>{{cite web|url=http://www.fia.com/championship/fia-formula-1-",
+        "| length_mi      = 3.661",
+        "| turns          = 18",
+        "| length2_km     = 5.900",
+        "| length2_mi     = 3.666",
+        "| turns2         = 18"
+      ]
+    },
+    "spa": {
+      "page": "Circuit de Spa-Francorchamps",
+      "url": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+      "length": "7.004",
+      "corners": "19",
+      "record": "1:44.701",
+      "debugFields": [
+        "| length_km      = 7.004",
+        "| length_mi      = 4.352",
+        "| turns          = 19",
+        "| length2_km     = 6.985",
+        "| length2_mi     = 4.341",
+        "| turns2         = 20"
+      ]
+    },
+    "suzuka": {
+      "page": "Suzuka International Racing Course",
+      "url": "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course",
+      "length": "5.807",
+      "corners": "18",
+      "record": "1:30.965",
+      "debugFields": [
+        "| length_km      = 5.807",
+        "| length_mi      = 3.608",
+        "| turns          = 18",
+        "| length2_km     = 5.821",
+        "| length2_mi     = 3.618",
+        "| turns2         = 17"
+      ]
+    },
+    "monza": {
+      "page": "Autodromo Nazionale di Monza",
+      "url": "https://en.wikipedia.org/wiki/Autodromo_Nazionale_di_Monza",
+      "length": "5.793",
+      "corners": "11",
+      "record": "1:20.901",
+      "debugFields": [
+        "| length_km      = 5.793<ref name=F1.comLap/><ref name=MonzaNetStats>{{cite web |title=Aut",
+        "| length_mi      = 3.600",
+        "| turns          = 11",
+        "| length2_km     = 5.777",
+        "| length2_mi     = 3.590",
+        "| turns2         = 11"
+      ]
+    },
+    "singapore": {
+      "page": "Marina Bay Street Circuit",
+      "url": "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+      "length": "4.927",
+      "corners": "19",
+      "record": "1:33.808",
+      "debugFields": [
+        "| length_km         = 4.927",
+        "| length_mi         = 3.061",
+        "| turns             = 19",
+        "| layout2           = Revised Circuit with New Straight between Turns 15–16 (2023–2024)",
+        "| length2_km        = 4.940",
+        "| length2_mi        = 3.070"
+      ]
+    },
+    "cota": {
+      "page": "Circuit of the Americas",
+      "url": "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+      "length": "5.513",
+      "corners": "20",
+      "record": "1:36.169"
+    },
+    "yas": {
+      "page": "Yas Marina Circuit",
+      "url": "https://en.wikipedia.org/wiki/Yas_Marina_Circuit",
+      "length": "5.281",
+      "corners": "16",
+      "record": "1:25.637"
+    }
+  },
+  "fetched": "2026-10-16T16:28:22.171Z",
+  "source": "English Wikipedia article wikitext (infobox)",
+  "drivers": {
+    "hamilton": {
+      "page": "Lewis Hamilton",
+      "url": "https://en.wikipedia.org/wiki/Lewis_Hamilton",
+      "wins": "106",
+      "poles": "104",
+      "podiums": "208",
+      "points": "5247.5",
+      "races": null,
+      "titles": "7",
+      "team2026": "Ferrari",
+      "firstWin": "2007 Canadian Grand Prix",
+      "lastWin": "2026 Barcelona-Catalunya Grand Prix",
+      "entries": "397",
+      "starts": "397"
+    },
+    "verstappen": {
+      "page": "Max Verstappen",
+      "url": "https://en.wikipedia.org/wiki/Max_Verstappen",
+      "wins": "73",
+      "poles": "50",
+      "podiums": "136",
+      "points": "3665.5",
+      "races": null,
+      "titles": "4",
+      "team2026": "Red Bull Racing-Red Bull Ford",
+      "firstWin": "2016 Spanish Grand Prix",
+      "lastWin": "2026 Singapore Grand Prix",
+      "entries": "250",
+      "starts": "250"
+    },
+    "alonso": {
+      "page": "Fernando Alonso",
+      "url": "https://en.wikipedia.org/wiki/Fernando_Alonso",
+      "wins": "32",
+      "poles": "22",
+      "podiums": "106",
+      "points": "2400",
+      "races": null,
+      "titles": "2",
+      "team2026": "Aston Martin Aramco-Honda",
+      "firstWin": null,
+      "lastWin": null,
+      "entries": "445",
+      "starts": "442"
+    },
+    "leclerc": {
+      "page": "Charles Leclerc",
+      "url": "https://en.wikipedia.org/wiki/Charles_Leclerc",
+      "wins": "9",
+      "poles": "27",
+      "podiums": "55",
+      "points": "1887",
+      "races": null,
+      "titles": "0",
+      "team2026": "Ferrari",
+      "firstWin": "2019 Belgian Grand Prix",
+      "lastWin": "2026 British Grand Prix",
+      "entries": "190",
+      "starts": "188"
+    },
+    "norris": {
+      "page": "Lando Norris",
+      "url": "https://en.wikipedia.org/wiki/Lando_Norris",
+      "wins": "13",
+      "poles": "19",
+      "podiums": "49",
+      "points": "1631",
+      "races": null,
+      "titles": "1",
+      "team2026": "McLaren-Mercedes",
+      "firstWin": "2024 Miami Grand Prix",
+      "lastWin": "2026 Dutch Grand Prix",
+      "entries": "169",
+      "starts": "168"
+    },
+    "senna": {
+      "page": "Ayrton Senna",
+      "url": "https://en.wikipedia.org/wiki/Ayrton_Senna",
+      "wins": "41",
+      "poles": "65",
+      "podiums": "80",
+      "points": "610 (614)",
+      "races": "162 (161 starts)",
+      "titles": "3",
+      "team2026": null,
+      "firstWin": "1985 Portuguese Grand Prix",
+      "lastWin": "1993 Australian Grand Prix"
+    },
+    "schumacher": {
+      "page": "Michael Schumacher",
+      "url": "https://en.wikipedia.org/wiki/Michael_Schumacher",
+      "wins": "91",
+      "poles": "68",
+      "podiums": "155",
+      "points": "1566",
+      "races": "308 (306 starts)",
+      "titles": "7",
+      "team2026": null,
+      "firstWin": null,
+      "lastWin": null
+    }
+  },
+  "fetchedExtra": "2026-10-16T16:44:52.780Z"
+}

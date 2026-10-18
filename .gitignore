@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Build logs
+tsc.log
+
+# Generated harness bundles (sources and data in scripts/out are tracked)
+scripts/out/*.bundle.mjs
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
